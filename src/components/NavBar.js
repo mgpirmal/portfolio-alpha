@@ -5,32 +5,32 @@ import {SocialIcon} from "react-social-icons"
 
 export default function NavBar() {
     return (
-    <header className= "bg-blue-500">
+    <header className= "bg-green-800">
         <div className="container mx-auto flex justify-between">
             <nav className="flex">
                 <NavLink 
                 to="/" 
                 exact 
                 activeClassName="text-white"
-                className="inflex-flex items-center py-6 px-3 my-4 text-red-100 hover:text-green-800 text-4xl font bold cursive tracking-widest">
+                className="inflex-flex items-center py-6 px-3 my-4 text-red-100 hover:text-white text-4xl font bold cursive tracking-widest">
                     Matthew Pirmal
                 </NavLink>
                 <NavLink 
                 to="post" 
-                activeClassName="text-blue-100 bg-blue-700"
-                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-green-800">
+                activeClassName="text-green-100 bg-green-700"
+                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-white">
                     Blog Posts
                 </NavLink>
                 <NavLink 
                 to="project" 
-                activeClassName="text-blue-100 bg-blue-700"
-                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-green-800">
+                activeClassName="text-green-100 bg-green-700"
+                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-white">
                     Projects
                 </NavLink>
                 <NavLink 
                 to="about" 
-                activeClassName="text-blue-100 bg-blue-700"
-                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-green-800">
+                activeClassName="text-green-100 bg-green-700"
+                className="inline-flex items-center py-3 px-3 my-6 rounder text-red-200 hover:text-white">
                     About Me
                 </NavLink>
             </nav>
